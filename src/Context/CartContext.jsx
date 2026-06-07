@@ -7,7 +7,6 @@ export const CartProvider = ({ children }) => {
   const [cart, setCart] = useState([]);
   const products = initialProducts;
 
-  // Add item into the cart
   const addToCart = (product) => {
     toast.success("Item Added To Cart", {
       position: "top-right",

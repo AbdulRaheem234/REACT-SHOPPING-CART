@@ -5,7 +5,7 @@ import Cart from "./Pages/Cart";
 import Checkout from "./Pages/Checkout";
 import ProductDetail from "./Pages/ProductDetail";
 import ProductList from "./Pages/ProductList";
-import {ToastContainer, toast, Bounce } from "react-toastify";
+import { ToastContainer, Bounce } from "react-toastify";
 function App() {
   return (
     <>
